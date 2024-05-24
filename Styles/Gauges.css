@@ -1,0 +1,305 @@
+﻿
+.pnlGaugeGroupWrapper
+{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.pnlGaugeGroup
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 900px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #606060;
+    height: 440px;
+}
+
+.pnlGaugeGroupTitle
+{
+    height: 50px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+.lblGaugeGroupTitle
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #606060;
+}
+
+.pnlGaugeWrapper
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+}
+
+.pnlGaugeError
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 370px;
+    overflow: hidden;
+    float: left;
+    background-image: url("~/gaugeerror.png");
+}
+
+
+.pnlGaugeTitle
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.lblGaugeTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #606060;
+}
+
+.pnlGaugePanel
+{
+    background-image: url("../Images/tgauge270.png");
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 270px;
+}
+
+
+.pnlGaugeNone
+{
+    background-image: url("../Images/flare300.png");
+    background-color: White;
+    height: 270px;
+    width: 270px;
+    padding: 15px 15px 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.pnlGaugeGrey
+{
+    background-image: url("../Images/flare300.png");
+    background-color: #a0a0a0;
+    height: 270px;
+    width: 270px;
+    padding: 15px 15px 15px 15px;
+}
+
+.pnlGaugeRed
+{
+    background-image: url("../Images/flare300.png");
+    background-color: Red;
+    height: 270px;
+    width: 270px;
+    padding: 15px 15px 15px 15px;
+}
+
+.pnlGaugeYellow
+{
+    background-image: url("../Images/flare300.png");
+    background-color: Yellow;
+    height: 270px;
+    width: 270px;
+    padding: 15px 15px 15px 15px;
+}
+
+.pnlGauge
+{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    left: 21px;
+    top: -6px;
+}
+
+
+.pnlGaugeGroupWrapperMini
+{
+    width: 100%;
+    text-align: center;
+}
+
+.pnlGaugeGroupFloaterMini
+{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+
+.pnlGaugeGroupMini
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #606060;
+    height: 228px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.pnlGaugeGroupTitleMini
+{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lblGaugeGroupTitleMini
+{   
+    font-size: 16pt;
+    font-weight: bold;
+    color: #606060;
+}
+
+.pnlGaugeWrapperMini
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 150px;
+    height: 175px;
+    overflow: hidden;
+    float: left;
+}
+
+.pnlGaugeTitleMini
+{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.lblGaugeTitleMini
+{
+}
+
+.pnlGaugePanelMini
+{
+    background-image: url("../Images/tgauge135.png");
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 135px;
+}
+
+
+.pnlGaugeNoneMini
+{
+    background-image: url("../Images/flare150.png");
+    background-color: Green;
+    height: 135px;
+    width: 135px;
+    padding: 7px 7px 7px 7px;
+    background-repeat: no-repeat;
+}
+
+.pnlGaugeGreyMini
+{
+    background-image: url("../Images/flare150.png");
+    background-color: #a0a0a0;
+    height: 135px;
+    width: 135px;
+    padding: 7px 7px 7px 7px;
+}
+
+.pnlGaugeRedMini
+{
+    background-image: url("../Images/flare150.png");
+    background-color: Red;
+    height: 135px;
+    width: 135px;
+    padding: 7px 7px 7px 7px;
+}
+
+.pnlGaugeYellowMini
+{
+    background-image: url("../Images/flare150.png");
+    background-color: Yellow;
+    height: 135px;
+    width: 135px;
+    padding: 7px 7px 7px 7px;
+}
+
+.pnlGaugeMini
+{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 11px;
+    top: -3px;
+}
+
+.pnlErrorOverlay
+{
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px 0px 20px; 
+    border: 1px solid #606060; */
+    width: 900px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #903030;
+}
+
+.pnlErrorOverlayMini
+{
+    width: 450px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #903030;
+    font-size: 10px;
+}
+
+
+.pnlGaugeErrorMini
+{
+    
+}
+
+.clear
+{
+    clear: both;
+}
+
+.pnlDate
+{
+    text-align: center;
+    font-size: 10pt;
+    height: 14px;
+    color: #606261;
+}
+
+.pnlDateMini
+{
+    text-align: center;
+    height: 12px;
+    font-size: 8pt;
+    width: 100%;
+    color: #606261;
+}

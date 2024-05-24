@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Demo.master.cs" Inherits="GreenCo.Demo" %>
+
+<!DOCTYPE html>
+
+<head runat="server">
+    <title></title>
+    <link href="./Styles/MasterDemo.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="divHeader" >
+        <div class="divHeaderTop">
+            <div class="divHeaderTopLeft"><a href='<% =Page.ResolveUrl("~/Default.aspx") %>'><asp:Image runat="server" ID="imgHeader" CssClass="imgHeader" ImageUrl="" Height="24" /></a></div>
+            <div class="divHeaderTopRight">
+                <a href='<% =Page.ResolveUrl("~/Readings.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu1" CssClass="pnlMenuLeft">Home</asp:Panel></a>
+                <a href='<% =Page.ResolveUrl("~/Reports.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu2" CssClass="pnlMenuLeft">Auto Reports</asp:Panel></a>
+                <a href='<% =Page.ResolveUrl("~/Configure.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu3" CssClass="pnlMenuLeft">Configure</asp:Panel></a>
+                <a href='<% =Page.ResolveUrl("~/Troubleshoot.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu4" CssClass="pnlMenuLeft">Troubleshoot</asp:Panel></a>
+                
+                <a href='<% =Page.ResolveUrl("~/Admin/Admin.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu5" CssClass="pnlMenuRight">Admin</asp:Panel></a>
+                <a href='<% =Page.ResolveUrl("~/Logout.aspx") %>' class="lnkMenu"><asp:Panel runat="server" ID="pnlMenu6" CssClass="pnlMenuRight">Log Out</asp:Panel></a>
+                <asp:Panel runat="server" ID="pnlWelcome" CssClass="pnlMenuRight"><asp:Label runat="server" ID="lblWelcome" Text="Welcome user" CssClass="lnkMenu" /></asp:Panel>
+                
+            </div>
+        </div>
+        <div class="divHeaderMain"></div>
+        <div class="divHeaderSub1"></div>
+        <div class="divHeaderSub2"></div>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

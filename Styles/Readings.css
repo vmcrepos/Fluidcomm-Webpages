@@ -1,0 +1,286 @@
+﻿.pnlLeft
+{
+    float: left;
+    width: 29.5%;
+    border-right: 3px solid #908080;
+    min-height: 200px;
+}
+
+.pnlLeftTitle
+{
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    color: #464040;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    border-bottom: 5px groove #908080;
+}
+
+.pnlLeftSelect
+{
+    border-bottom: 1px solid #908080;
+    padding: 10px 0px 10px 0px;
+    height: 40px;
+    width: 100%;
+    clear: both;
+}
+
+.pnlHalfCenter
+{
+    width: 50%;
+    height: 36px;
+    padding-top: 4px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.lblCaption
+{
+    font-size: 16pt;
+    font-weight: bold;
+    color: #464040;
+}
+
+.pnlRight
+{
+    float: right;
+    width: 70%;
+    min-height: 200px;
+}
+
+.pnlRightTitle
+{
+    width: 100%;
+    color: #464040;
+    font-size: 24pt;
+}
+
+.pnlReadingMenu
+{
+    width: 100%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.pnlMenuOption
+{
+    width: 118px;
+    height: 30px;
+    font-size: 11pt;
+    font-weight: 600;
+    color: #464040;
+    border: 1px solid #464040;
+    background-color: #ffffff;
+    margin: 5px 4px 5px 4px;
+    float: left;
+    padding-top: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pnlMenuOptionAlt
+{
+    width: 118px;
+    height: 30px;
+    font-size: 11pt;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #464040;
+    background-color: #30397f;
+    margin: 5px 4px 5px 4px;
+    float: right;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnRefresh {
+    float: right;
+    height: 36px;
+    width: 36px;
+    margin: 2px 0px 2px 0px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.pnlMenuOption:hover
+{
+    color: #ffffff;
+    background-color: #464040;
+    cursor: pointer;
+}
+
+.pnlMenuOptionAlt:hover
+{
+    color: #000000;
+    background-color: #f0b30f;
+    cursor: pointer;
+}
+
+.pnlMenuOptionAltDisabled
+{
+    width: 118px;
+    height: 30px;
+    font-size: 11pt;
+    color: #a0a0a0;
+    border: 1px solid #464040;
+    background-color: #f6f6ff;
+    margin: 5px 4px 5px 4px;
+    float: right;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pnlMenuOptionSelected
+{
+    width: 120px;
+    height: 30px;
+    font-size: 11pt;
+    font-weight: 600;
+    color: #464040;
+    border: 1px solid #464040;
+    /* background-color: #afcfcf; */
+    background-color: #f0b30f;
+    margin: 5px 4px 5px 4px;
+    float: left;
+    padding-top: 8px;
+    
+    text-align: center;
+    cursor: pointer;
+}
+
+.pnlMenuOptionSelected:hover
+{
+    color: #ffffff;
+    background-color: #464040;
+    cursor: pointer;
+}
+
+.pnlContentVisible
+{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.pnlContentHidden
+{
+    height: 0px;
+    overflow: hidden;
+}
+
+.pnlOptionHalf
+{
+    height: 70px;
+    margin: 10px 1% 10px 1%;
+    padding: 10px 2% 10px 2%;
+    width: 44%;
+    float: left;
+    outline: 1px solid #464040;
+}
+
+.pnlClear
+{
+    clear: both;
+}
+
+.pnlContentBodySmall {
+    height: auto;
+    /*height: 400px;*/
+    width: 100%;
+}
+
+.pnlError
+{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    color: #464040;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.divHalfLineLeft
+{
+    width: 25.5%;
+    padding: 5px 2% 5px 2%;
+    float: left;
+    text-align: right;
+}
+
+.divHalfLineRight
+{
+    width: 65.5%;
+    padding: 5px 2% 5px 2%;
+    float: left;
+    text-align: left;
+}
+
+/* Grid */
+
+
+
+
+.pnlChartOptionsWrapper
+{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pnlChartOptionsFloater
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    height: 40px;
+}
+
+.pnlChartOption0, .pnlChartOption1, .pnlChartOption2, .pnlChartOption3, .pnlChartOption4, .pnlChartOption5, .pnlChartOptionDisabled
+{
+    width: 110px;
+    height: 26px;
+    font-size: 12pt;
+    margin: 4px 4px 4px 4px;
+    float: left;
+    padding-top: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pnlChartOption0 { color: #ffffff; background-color: #f0b30f; }
+.pnlChartOption1 { color: #ffffff; background-color: #4b4c53; }
+.pnlChartOption2 { color: #ffffff; background-color: #848793; }
+.pnlChartOption3 { color: #000000; background-color: #ccc0c0; }
+.pnlChartOption4 { color: #ffffff; background-color: #30397f; }
+.pnlChartOption5 { color: #ffffff; background-color: #40499f; }
+
+.pnlChartOptionDisabled { color: #a0a0a0; background-color: #f6f6ff; outline: 1px solid #909090; }
+.pnlChartOption0:hover, .pnlChartOption1:hover, .pnlChartOption2:hover, .pnlChartOption3:hover, .pnlChartOption4:hover, .pnlChartOption5:hover, .pnlChartOptionDisabled:hover { color: #ffffff; background-color: #000000; cursor: pointer; }
+
+.divHidden {
+    height: 0px;
+    overflow: hidden;
+}
+
+.divVisible{
+    height: auto;
+    overflow: visible;
+    min-width: 716px;
+}
+
+.readingsInfoBox {
+    margin: 50px auto;
+    width: 70%;
+}

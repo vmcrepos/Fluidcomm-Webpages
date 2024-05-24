@@ -1,0 +1,280 @@
+﻿.divCenter
+{
+    text-align: center;
+}
+
+.divFormTitle
+{
+    width: 100%;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #606060;
+    text-align: left;
+}
+
+.formSectionTitle {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #606060;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.divFormSubTitle
+{
+    width: 100%;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #606060;
+    text-align: left;
+}
+
+.divFormSection
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.divFormSectionBorder
+{
+    width: 70%;
+    height: 1px;
+    border-bottom: 2px solid #000000;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divFormHeading100
+{
+    width: 100%;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #000000;
+}
+
+.divFormSubHeading100
+{
+    width: 100%;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #606060;
+}
+
+.divFormRow
+{
+    width: 100%;
+    clear: both;
+}
+
+.divFormCaption20Hidden
+{
+    width: 18%;
+    height: 0px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.divFormCaption50Left
+{
+    width: 45%;
+    height: 30px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    
+}
+
+.divFormCaption20Right
+{
+    width: 18%;
+    height: 30px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.divFormCaption20Left
+{
+    width: 18%;
+    height: 30px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.divFormCaption10Right
+{
+    width: 8%;
+    height: 30px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.divFormCaption10Left
+{
+    width: 8%;
+    height: 30px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.divFormItem30
+{
+    width: 28%;
+    height: 40px;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 1%;
+    padding-left: 1%;
+    text-align: left;
+    
+}
+
+.divFormItem30Hidden
+{
+    width: 28%;
+    height: 0px;
+    float: left;
+    /*padding-top: 20px;
+    padding-bottom: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 1%;
+    padding-left: 1%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.divFormItem10
+{
+    width: 8%;
+    height: 40px;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 1%;
+    padding-left: 1%;
+    text-align: left;
+}
+
+.lblCaption
+{
+    font-size: 10pt;
+    color: #000000;
+}
+
+.txtEntry
+{
+    color: #606060;
+}
+
+.divFormInvisible
+{
+    visibility: hidden;
+    width: 50%;
+}
+
+.divFormVisible
+{
+    visibility: visible;
+    width: 50%;
+}
+
+.divSensorConfig
+{
+}
+
+.divSensorHidden
+{
+    height: 0px;
+    overflow: hidden;
+}
+
+.divSensorVisible
+{
+    height: auto;
+    overflow: visible;
+}
+
+.divToggleOn, .divToggleOff
+{
+    width: 240px;
+    height: 26px;
+    font-size: 12pt;
+    margin: 4px 5px 4px 5px;
+    float: left;
+    padding-top: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.divToggleOn { color: #ffffff; background-color: #4b4c53;}
+.divToggleOff { color: #a0a0a0; background-color: #f6f6ff; outline: 1px solid #909090; }
+.clear { clear:both; }
+
+.txtSmall
+{
+    width: 40px !important;
+    text-align: center;
+}
+
+.txtSmallYellow
+{
+    width: 40px !important;
+    background-color: Yellow !important;
+    color: #404040 !important;
+    text-align: center;
+}
+
+.txtSmallRed
+{
+    width: 40px !important;
+    background-color: Red !important;
+    color: #000000 !important;
+    text-align: center;
+}
+.postResults {
+    text-align: center;
+    padding: 1em;
+    background: #f0b30f;
+    font-weight: 700;
+}
+
+.mobileConfigWrapper {
+    margin: 1em 0;
+    border: 1px solid black;
+    padding: 16px;
+}

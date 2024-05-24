@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Greenco.master.cs" Inherits="GreenCo.Greenco" %>
+
+<!DOCTYPE html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/vmcbulma.css" rel="stylesheet" />
+    <link href="./Styles/Master.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Buttons.css" rel="stylesheet" />
+    <link href="Styles/Layouts.css" rel="stylesheet" />
+    <%--<link href="../Styles/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet" type="text/css" />--%>
+    <link href="Styles/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="/Scripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui-1.10.3.custom.min.js"></script>
+   <%-- <script type="text/javascript" src='<%=ResolveClientUrl("~/scripts/jquery-1.9.1.js") %>'></script>
+    <script type="text/javascript" src='<%=ResolveClientUrl("~/scripts/jquery-ui-1.10.3.custom.min.js") %>'></script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="divHeader">
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="<%= Page.ResolveUrl("~/Default.aspx") %>">
+                        <asp:Image runat="server" ID="imgHeader" CssClass="imgHeader" ImageUrl="~/Images/fluidcommlogo.png" Height="24" />
+                    </a>
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" id="linkHome" runat="server">Home
+                        </a>
+                        <a class="navbar-item" id="linkAutoReports" runat="server">Auto Reports
+                        </a>
+                        <a class="navbar-item" id="linkConfigure" runat="server">Configure
+                        </a>
+                        <a class="navbar-item" id="linkTroubleShoot" runat="server">Troubleshoot
+                        </a>
+                    </div>
+
+                    <div class="navbar-end">
+
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <asp:Label runat="server" ID="lblWelcome" Text="Welcome to FluidComm" CssClass="navbar-item" />
+                            </a>
+
+                            <div class="navbar-dropdown is-dark">
+                                <a class="navbar-item" id="linkMyAccount" runat="server">My Account</a>
+                            </div>
+                        </div>
+                        <a class="navbar-item" id="linkLogout" runat="server">Log Out 
+                        </a>
+                        <a class="navbar-item" id="linkAdmin" runat="server">Admin
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="divHeaderMain"></div>
+            <div class="divHeaderSub1"></div>
+            <div class="divHeaderSub2"></div>
+        </div>
+
+        <div class="contentBody">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="footer">
+            <p>FluidComm<sup style="font-size: 8px;">TM</sup> <%=DateTime.Now.Year  %> <span style="float: right;"><asp:Label ID="lblVersion" runat="server" ></asp:Label></span></p>
+        </div>
+    </form>
+</body>
+</html>

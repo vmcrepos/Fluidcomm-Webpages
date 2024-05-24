@@ -1,0 +1,124 @@
+﻿body {
+    /*font-family: Segoe UI;*/
+    font-family: Helvetica Light, Helvetica, Gadugi, Segoe UI, Arial, Sans-Serif;
+    font-weight: 400;
+    /*min-width: 768px;*/
+    min-width: 1024px;
+}
+
+.divHeaderTop {
+    width: 98%;
+    height: 52px;
+    /*background-color: #222020;*/
+    background-color: #007e8a;
+    clear: both;
+    padding: 0px 1% 0px 1%;
+}
+
+.divHeaderTopLeft {
+    width: 20%;
+    float: left;
+    height: 60px;
+}
+
+.imgHeader {
+    height: 24px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.divHeaderTopRight {
+    width: 80%;
+    float: right;
+    height: 60px;
+}
+
+.pnlMenuLeft {
+    height: 20px;
+    /*font-family: Segoe UI;*/
+    margin: 15px 10px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    font-size: 12pt;
+    font-weight: 400;
+    color: inherit;
+    float: left;
+    display: inline-block;
+    border-right: 0px solid #ffbc11;
+}
+
+.pnlMenuRight {
+    height: 20px;
+    /*font-family: Segoe UI;*/
+    margin: 15px 10px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    font-size: 12pt;
+    font-weight: 400;
+    color: inherit;
+    float: right;
+    display: inline-block;
+    border-right: 0px solid #ffbc11;
+}
+
+.imgMenu {
+    height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.lnkMenu {
+    /*color: #909090;*/
+    color: #20030f;
+}
+
+    .lnkMenu :hover {
+        color: #ffffff;
+    }
+
+.divHeaderSub1 {
+    width: 100%;
+    height: 0px;
+    background-color: #ffbc11;
+}
+
+.divHeaderSub2 {
+    width: 100%;
+    height: 0px;
+    background-color: #231f20;
+}
+
+
+
+/* Dashboard page (may move to its own style sheet) */
+
+.pnlCustomerTitle {
+    color: #706a6d;
+    font-size: 42pt;
+    height: 110px;
+    width: 97%;
+    padding: 20px 0px 0px 3%;
+    font-weight: bold;
+    border-bottom: 1px solid #231f20;
+}
+
+/* MASTER OBJECT CLASSES */
+.cmbStandard {
+    width: 20%;
+}
+
+.txtStandard {
+}
+
+.divIncomplete {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 20pt;
+}
+
+.btnStandard {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,82 @@
+﻿body {
+}
+
+#wrapper, #container {
+    height: 400px;
+    width: 360px;
+}
+
+#wrapper {
+    bottom: 50%;
+    right: 50%;
+    position: absolute;
+}
+
+#container {
+    left: 50%;
+    position: relative;
+    top: 50%;
+    background-image: url("../Images/LoginBackground.png");
+}
+
+.divCenter {
+    text-align: center;
+}
+
+.divlogin {
+    width: 360px;
+    height: 400px;
+    /*background-image: url("../Images/loginBackground6.png");*/
+    overflow: hidden;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginLogoCenter {
+    padding-top: 20px;
+    text-align: center;
+}
+
+    .loginLogoCenter img#imgLogo {
+        width: 100%;
+        padding: 0 10%;
+        box-sizing: border-box;
+    }
+
+.login {
+    font-family: Tahoma, Sans-Serif;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.loginError {
+    display: block;
+    font-family: MoolBoran, Tahoma, Sans-Serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.loginText {
+    font-family: Tahoma, Sans-Serif;
+    font-size: 14px;
+    width: 180px;
+    /*margin-left: 16px;*/
+}
+
+.loginButton {
+    font-family: MoolBoran, Tahoma, Sans-Serif;
+    display: block;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    /*background-color: #98A1BA;*/
+    background-color: transparent;
+    background-image: url("../Images/loginbutton.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 43px;
+    height: 36px;
+}

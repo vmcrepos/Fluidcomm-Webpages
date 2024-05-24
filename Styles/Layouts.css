@@ -1,0 +1,32 @@
+﻿div#footer {
+    background: black;
+    color: #ffbc11;
+    clear: both;
+    display: block;
+    position: static;
+    width: 100%;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.dateFiltersWrapper {
+    width: 33%;
+    float: left;
+}
+
+.mobileFiltersWrapper {
+    width: 65.5%;
+    float: right;
+}
+
+.queryResults {
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 20px 20px;
+    background: #ffbc11;
+    border-radius: 4px;
+    margin: 30px auto;
+    width: 50%;
+}

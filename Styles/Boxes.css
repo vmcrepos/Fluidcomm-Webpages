@@ -1,0 +1,305 @@
+﻿
+.pnlBoxGroupWrapper
+{
+    width: 100%;
+    height: 250px;
+    text-align: left;
+    border-bottom: 3px groove #303030;
+}
+
+.pnlBoxGroupWrapperCenter
+{
+}
+
+.pnlBoxGroupFloater
+{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.pnlBoxGroupTitle
+{
+    height: 40px;
+    width: 95%;
+    margin: 10px 0% 0px 5%;
+    font-size: 24px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.lblBoxGroupTitle
+{
+    
+}
+
+.pnlBoxGroup
+{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #606060;
+    height: 180px;
+    float: left;
+}
+
+.pnlBoxSingle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 180px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #606060;
+    height: 180px;
+    float: left;
+}
+
+/*
+.pnlBoxError
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 370px;
+    overflow: hidden;
+    float: left;
+    background-image: url("~/gaugeerror.png");
+}*/
+
+.pnlBoxTitle, .pnlAlarmTitle
+{
+    width: 100%;
+    height: 32px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.lblBoxTitle, .lblAlarmTitle
+{
+    font-size: 20px;
+    font-weight: normal;
+    color: #909090;
+}
+
+.pnlBoxWrapper
+{
+    height: 120px;
+    width: 100px;
+    float: left;
+}
+
+.pnlBoxSingle .pnlBoxWrapper {
+    float: none;
+    margin: 0 auto;
+}
+
+.pnlBoxNone
+{
+    background-image: url("../Images/flareBox100.png");
+    background-color: Blue;
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.pnlBoxGreen
+{
+    background-image: url("../Images/flareBox100Spread.png");
+    background-color: Green;
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.pnlBoxGrey
+{
+    background-image: url("../Images/flareBox100Spread.png");
+    background-color: #606060;
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+.pnlBoxRed
+{
+    background-image: url("../Images/flareBox100Spread.png");
+    background-color: Red;
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+.pnlBoxYellow
+{
+    background-image: url("../Images/flareBox100Spread.png");
+    background-color: Yellow;
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.pnlBoxInteriorValue
+{
+    width: 80px;
+    height: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pnlBoxInteriorTitle
+{
+    text-align: center;
+    height: 20px;
+}
+
+.lblBoxInteriorTitle
+{
+    font-size: 10pt;
+    /*font-family: Helvetica, Arial, Sans-Serif;*/
+    color: #808080;
+}
+
+.lblBoxInteriorValue
+{
+    font-size: 30pt;
+    font-family: Myriad Pro, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #303030;
+}
+
+.lblBoxInteriorValueSmallText {
+    font-size: 24pt;
+    font-family: Myriad Pro, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #303030;
+}
+
+.lblBoxInteriorValueTinyText {
+    font-size: 18pt;
+    font-family: Myriad Pro, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #303030;
+}
+
+.pnlBoxErrorOverlay
+{
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px 0px 20px; 
+    border: 1px solid #606060; */
+    width: 900px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #903030;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.pnlBoxDate
+{
+    text-align: center;
+    font-size: 8pt;
+    height: 14px;
+    color: #606261;
+    clear: both;
+}
+
+.pnlAlarmFlareNone
+{
+    height: 180px;
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    background-color: White;
+    background-image: url("../Images/flareBox200Spread.png");
+}
+
+.pnlAlarmFlareYellow
+{
+    height: 180px;
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    background-color: #f0c000;
+    background-image: url("../Images/flareBox200Spread.png");
+}
+
+.pnlAlarmFlareRed
+{
+    height: 180px;
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    background-color: Red;
+    background-image: url("../Images/flareBox200Spread.png");
+}
+
+.pnlAlarmBox
+{
+    height: 180px;
+    width: 180px;
+    border: 1px solid #909090;
+    background-color: White;
+}
+
+.pnlAlarmInteriorWrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+.pnlAlarmInteriorValue
+{
+    width: 80px;
+    height: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #909090;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.lblAlarmInteriorValue
+{
+    font-size: 30pt;
+    font-family: Myriad Pro, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #303030;
+}
+
+.pnlOptionContainer {
+    width: 200px;
+    height: 10px;
+    float: right;
+    margin-right: 250px;
+}
+
+.pnlLogoContainer {
+    width: 250px;
+    height: 10px;
+    float: right;
+}

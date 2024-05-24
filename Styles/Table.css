@@ -1,0 +1,70 @@
+﻿.tblReadings
+{
+    width: 97%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: Myriad Pro, Arial, Sans-Serif;
+    font-size: 10pt;
+    color: #464040;
+    margin-bottom: 10px;
+}
+
+.tblReadings-row
+{
+    color: inherit;
+}
+
+.tblReadings-altrow
+{
+    background-color: #faf8f6;
+}
+
+.tblReadings td
+{
+    border: 1px solid #b9b0b0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tblReadings th {
+    border: 1px solid #a0a0a0;
+    color: #464040;
+    background-color: #faf8f6;
+}
+
+.tblReadings th a
+{
+    
+}
+
+.tblReadings th a:hover {
+    
+}
+
+.tblReadingsHeaderInvisible th
+{
+    border: none;
+    color: #666059;
+}
+
+.tblReadings tr th a { color: #464040; text-decoration: none; }
+
+.tblReadings tr th a:hover { color: #8090e0; }
+
+.tblReadings tr th a:visited { color: Purple; }
+
+.col15Left { width: 15%; text-align: left; }
+.col15Center { width: 15%; text-align: center; }
+.col5Left { width: 5%; text-align: left; }
+.col5Center { width: 5%; text-align: center; }
+.col5CenterBold { width: 5%; text-align: center; font-weight: bold; }
+
+.cellHighlight {
+    background-color: #fffad8;
+    text-align: center;
+}
+.cellHighlight_alt 
+{
+    background-color: #f8f2c6;
+    text-align: center;
+}

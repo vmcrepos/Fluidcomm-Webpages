@@ -1,0 +1,15 @@
+﻿span.RadButton.RadButton_Bootstrap.downloadExcel {
+    background: #217346;
+    height: 40px;
+    display: inline-flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+span.RadButton.RadButton_Bootstrap.downloadExcel .rbDecorated {
+    color: white;
+}
+
+span.RadButton.RadButton_Bootstrap.downloadExcel:hover {
+    background: #2b8e2b;
+}
